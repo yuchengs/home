@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, Tabs, Tab } from 'react-bootstrap';
+import HeadBar from './components/HeadBar';
+import AboutBar from './components/AboutBar';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Courses from './components/Courses';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Container>
+        <HeadBar />
+        <hr />
+        <AboutBar />
+        <hr />
+        <Tabs defaultActiveKey="Education">
+          <Tab eventKey="Education" title="Education">
+            <Education />
+          </Tab>
+          <Tab eventKey="Experience" title="Experience">
+            <Experience />
+          </Tab>
+          <Tab eventKey="Projects" title="Projects">
+            <Projects />
+          </Tab>
+          <Tab eventKey="Courses" title="Courses">
+            <Courses />
+          </Tab>
+        </Tabs>
+        <Footer />
+      </Container>
     );
   }
 }

@@ -1,0 +1,38 @@
+.formLabel {
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+}
+
+small {
+  color: grey;
+  font-size: 70%;
+}
+
+.entitystyle {
+  color: grey;
+  font-size: 80%;
+  display:inline-block;
+  width: 50px;
+}
+
+.jobTotalDuration {
+  color:grey;
+  font-size:80%;
+}
+
+.footerItem {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height:75px;
+}
+
+.coursetitle {
+  font-size: 120%;
+}
+
+.projectsubtitle {
+  font-style: italic;
+}
