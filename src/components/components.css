@@ -9,6 +9,14 @@ small {
   font-size: 70%;
 }
 
+.wrapper {
+  margin-top: 20px;
+}
+
+.media-wrapper {
+  margin-bottom: 20px;
+}
+
 .entitystyle {
   color: grey;
   font-size: 80%;

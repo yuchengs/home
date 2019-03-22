@@ -198,12 +198,22 @@
   ],
   "studies": [
     {
+      "institute": "University of Chicago",
+      "logo": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/University_of_Chicago.jpg",
+      "url": "https://www.uchicago.edu",
+      "title": "M.S. Mathematics",
+      "durationInYears": "2",
+      "graduationYear": 2021,
+      "status": "coming"
+    },
+    {
       "institute": "University of Michigan - Ann Arbor",
       "logo": "https://umich.edu/skins/um2013/media/images/umich-logo.png",
       "url": "https://umich.edu",
       "title": "B.S. Honor Mathematics, B.S. Computer Science",
       "durationInYears": "5",
-      "graduationYear": 2019
+      "graduationYear": 2019,
+      "status": "current"
     },
     {
       "institute": "Shanghai Jiaotong University",
@@ -211,7 +221,8 @@
       "url": "http://en.sjtu.edu.cn/",
       "title": "B.Eng. Electrical Computer Engineering",
       "durationInYears": "4",
-      "graduationYear": 2018
+      "graduationYear": 2018,
+      "status": ""
     }
   ],
   "projects": [

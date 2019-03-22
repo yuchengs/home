@@ -12,7 +12,7 @@ function getDuration(duration) {
 class Experience extends React.Component {
   render() {
     return (
-      <Container>
+      <Container className="wrapper">
       <Row>
         <Col>
           {profile.experiences.map(function (experience, i) {
@@ -27,7 +27,7 @@ class Experience extends React.Component {
 
             return (
               <Container key={i}>
-                <Media>
+                <Media className="media-wrapper">
                   <img
                     width={128}
                     height={128}
