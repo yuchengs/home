@@ -1,6 +1,6 @@
 {
   "name": "Yucheng Shi",
-  "current": "Undergraduate student at University of Michigan",
+  "current": "Graduate student at University of Chicago",
   "information": {
     "address": {
       "city": "Ann Arbor",
@@ -10,11 +10,11 @@
     },
     "email": {
       "username": "yuchengs",
-      "server": "umich.edu"
+      "server": "uchicago.edu"
     },
     "phonebase64": "NzM0LTM1Mi05ODM4Cg=="
   },
-  "summary": "I am an undergraduate student major in Honor Mathematics and Computer Science at University of Michigan - Ann Arbor. After my upcoming graduation (2019.05), I will go to graduate school, studying mathematics at University of Chicago. My research interests includes: cryptography, algebraic number theory and combinatorics. Prior to University of Chicago and University of Michigan, I receive another B.Eng. (ECE) at Shanghai Jiao Tong University. ",
+  "summary": "In Fall 2019, I will be a graduate student at University of Chicago. I majored in Honor Mathematics and Computer Science at University of Michigan - Ann Arbor. Prior to University of Michigan, I received another B.Eng. (ECE) at Shanghai Jiao Tong University. My research interest includes: cryptography, algebraic number theory and combinatorics. ",
   "courses": [
     {
       "title": "Advanced Linear Algebra",
@@ -201,10 +201,10 @@
       "institute": "University of Chicago",
       "logo": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/University_of_Chicago.jpg",
       "url": "https://www.uchicago.edu",
-      "title": "M.S. Mathematics",
+      "title": "M.S. Applied Mathematics",
       "durationInYears": "2",
       "graduationYear": 2021,
-      "status": "coming"
+      "status": "current"
     },
     {
       "institute": "University of Michigan - Ann Arbor",
@@ -213,7 +213,7 @@
       "title": "B.S. Honor Mathematics, B.S. Computer Science",
       "durationInYears": "5",
       "graduationYear": 2019,
-      "status": "current"
+      "status": ""
     },
     {
       "institute": "Shanghai Jiaotong University",
