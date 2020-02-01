@@ -3,10 +3,10 @@
   "current": "Graduate student at University of Chicago",
   "information": {
     "address": {
-      "city": "Ann Arbor",
-      "state": "MI",
-      "post": "48105",
-      "street": "3020 Bolgos Cir."
+      "city": "Chicago",
+      "state": "IL",
+      "post": "60615",
+      "street": "5050 S Lake Shore Drive"
     },
     "email": {
       "username": "yuchengs",
@@ -14,7 +14,7 @@
     },
     "phonebase64": "NzM0LTM1Mi05ODM4Cg=="
   },
-  "summary": "In Fall 2019, I will be a graduate student at University of Chicago. I majored in Honor Mathematics and Computer Science at University of Michigan - Ann Arbor. Prior to University of Michigan, I received another B.Eng. (ECE) at Shanghai Jiao Tong University. My research interest includes: cryptography, algebraic number theory and combinatorics. ",
+  "summary": "I am a graduate student at University of Chicago studying Computational and Applied Mathematics. I majored in Honor Mathematics and Computer Science at University of Michigan - Ann Arbor, and Electrical Computer Engineering at  Shanghai Jiao Tong University. I am hoping to find a Software Development Engineer job after graduating from Uchicago, feel free to contact me if you have great opportunities!",
   "courses": [
     {
       "title": "Advanced Linear Algebra",
@@ -193,15 +193,63 @@
       "categories": {
 
       }
+    },
+    {
+      "title": "Matrix Computation",
+      "subtitle": "STAT 30900",
+      "location": "Uchicago",
+      "information":"This is an introductory course on numerical linear algebra. The course will present a global overview of a number of topics, from classical to modern to state-of-the-art. The fundamental principles and techniques will be covered in depth but towards the end of the course we will also discuss some exciting recent developments.",
+      "instructor": "Lek-Heng Lim",
+      "textbook": "Matrix Computations, Golub & Van Loan"
+    },
+    {
+      "title": "Applied Analysis",
+      "subtitle": "STAT  31210",
+      "location": "Uchicago",
+      "information":"The objective of the course is to cover most of the first nice chapters of the book Applied Analysis by John K Hunter and Bruno Nachtergaele.",
+      "instructor": "Guillaume Bal",
+      "textbook": "Applied Analysis by John K Hunter"
+    },
+    {
+      "title": "Statistical Theory and Methods Ia",
+      "subtitle": "STAT 24410",
+      "location": "Uchicago",
+      "information":"Point estimation, confidence intervals, hypothesis testing and Bayesian statistics",
+      "instructor": "Daniel Sanz-Alonso",
+      "textbook": "Mathematical Statistics and Data Analysis, Rice, John A."
+    },
+    {
+      "title": "Mathematical Statistics",
+      "subtitle": "STAT 30100",
+      "location": "Uchicago",
+      "information":"Topics will include exponential and location-scale families, statistical applications of quadratic forms of multivariate normal, principles of estimation, propertiess of the likelihood function and likelihood-based inference including some non standard cases, Bayesian methods, asymptotic methods in statistics. Other topics (e.g. methods for dependdent observations) may be covered if time permits.",
+      "instructor": "M. S. McPeek",
+      "textbook": "Statistical Inference (Casella and Berger) and A course in large sample theory (Ferguson)"
+    },
+    {
+      "title": "Partial Differential Equations",
+      "subtitle": "STAT 31220",
+      "location": "Uchicago",
+      "information":"This is an introduction to the theory of partial differential equations covering representation formulas and regularity theory for elliptic, parabolic, and hyperbolic equations; the method of characteristics; variational formulations for second-order linear elliptic equations; and the calculus of variabtions",
+      "instructor": "Eric Baer",
+      "textbook": "Partial Differentail Equations, L.C. Evans"
+    },
+    {
+      "title": "Nonlinear Optimization",
+      "subtitle": "STAT 31020",
+      "location": "Uchicago",
+      "information":"This course covers the fundamentals of continuous optimization with an emphasis on algorithmic and computational issues. The course starts with the study of optimality conditions and techniques for unconstrained optimization, covering line search and trust region approaches, and addressing both factorization-based and iterative methods for solving the subproblems. The Karush-Kuhn-Tucker conditions for general constrained and nonconvex optimization are then discussed and used to define algorithms for constrained optimization including augmented Lagrangian, interior-point and (if time permits) sequential quadratic programming. Iterative methods for large sparse problems, with an emphasis on projected gradient methods, will be presented. Several substantial programming projects (using MATLAB and aiming at both data-intensive and physical sciences applications) are completed during the course.",
+      "instructor": "Mihai Anitescu",
+      "textbook": "Numerical Optimization. Nocedal, Jorge, Wright, Stephen."
     }
 
   ],
   "studies": [
     {
       "institute": "University of Chicago",
-      "logo": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/University_of_Chicago.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/University_of_Chicago_shield.svg/260px-University_of_Chicago_shield.svg.png",
       "url": "https://www.uchicago.edu",
-      "title": "M.S. Applied Mathematics",
+      "title": "M.S. Computational and Applied Mathematics",
       "durationInYears": "2",
       "graduationYear": 2021,
       "status": "current"
@@ -217,7 +265,7 @@
     },
     {
       "institute": "Shanghai Jiaotong University",
-      "logo": "https://www.commonapp.org/files/styles/400-y/public/school/logo/umich-shanghai-logo.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png",
       "url": "http://en.sjtu.edu.cn/",
       "title": "B.Eng. Electrical Computer Engineering",
       "durationInYears": "4",
@@ -277,6 +325,20 @@
   ],
   "experiences": [
     {
+      "companyName": "TrustKernel",
+      "logo": "https://www.trustkernel.com/img/logo-1.png",
+      "url": "https://www.trustkernel.com/en",
+      "roles": [
+        {
+          "title": "SDE Intern",
+          "description": "Digital Key SDK development for Borgward",
+          "startDate": "2019-06",
+          "endDate":"2019-08",
+          "location": "Shanghai"
+        }
+      ]
+    },
+    {
       "companyName": "University of Michigan Lab of Geometry",
       "logo": "https://umich.edu/skins/um2013/media/images/umich-logo.png",
       "url": "https://sites.lsa.umich.edu/logm/",
@@ -285,14 +347,14 @@
           "title": "Researcher",
           "description": "Generalize Marden's Theorem into higher dimension",
           "startDate": "2018-09-01",
-          "currentJob": true,
+          "endDate": "2019-04-01",
           "location": "Ann Arbor, Michigan"
         }
       ]
     },
     {
       "companyName": "Shanghai Jiaotong University",
-      "logo": "https://www.commonapp.org/files/styles/400-y/public/school/logo/umich-shanghai-logo.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png",
       "url": "http://en.sjtu.edu.cn/",
       "roles": [
         {

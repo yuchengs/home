@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import profile from '../profile.json';
 import './components.css'
-import yucheng from '../data/IMG-1418.JPG';
+import yucheng from '../data/IMG_2129.JPG';
 
 class HeadBar extends Component {
   render() {

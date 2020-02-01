@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import profile from '../profile.json';
-import cv from '../resume/cv_yucheng.pdf';
+import cv from '../resume/cv.pdf';
 
 class AboutBar extends Component {
   render() {
